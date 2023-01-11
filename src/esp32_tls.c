@@ -5,6 +5,10 @@
  */
 
 #include "pl4/transport.h"
+
+#include <errno.h>
+#include <string.h>
+
 #include "esp_tls.h"
 
 enum tls_state {
